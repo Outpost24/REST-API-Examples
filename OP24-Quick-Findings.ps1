@@ -21,3 +21,4 @@ function Get-OP24Findings ([string]$creds, [string]$uri) {
 }
 
 $findings = Get-OP24Findings -creds $creds -uri $uri
+$findings
